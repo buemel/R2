@@ -91,7 +91,7 @@ leveneTest(Symptome ~ Gruppe, data = df, center = "mean")
 # Normalverteilung liegt vor?
 # Ein signifikanter Shapiro-Wilk Test weist auf Verletzung der NV-Annahme hin
 by(df$Symptome, df$Gruppe, shapiro.test)
-#
+###
 
 # ----------------------------------------
 # X = c(17, 22, 44, 25, 25, 17, 32, 54, 21, 54, 12, 34, 71, 41, 23, 43, 63, 60, 51, 57, 55, 40, 65, 45, 49, 54)
